@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <form onsubmit="return false;">
+        <div class="principe">
+            <h1>Formulaire d'inscription:</h1>
+            <div class="logo">
+                    <table>
+                        <tr>
+                            <td><label>Civilité:</label></td>
+                            <td>Monsieur:<input type="radio" name="c1" id="c1"></td>
+                            <td>Madame:<input type="radio" name="c1" id="c2"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Nom et Prénom:</label></td>
+                            <td><input type="text" id="np"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Numéro de tel:</label></td>
+                            <td><input type="text" id='tel'></td>
+                        </tr>
+                        <tr>
+                            <td><label>E_mail:</label></td>
+                            <td><input type="text" id="Adresse" ></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email confimation:</label></td>
+                            <td><input type="text" id="Adresse1"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Adresse:</label></td>
+                            <td><input type="text" id="adr"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Ville:</label></td>
+                            <td><select>
+                                <option value="Ville">Ville</option>
+                                <option value="tunis">Tunis</option>
+                                <option value="tatouine">Tatouine</option>
+                            </select></td>
+                            <td><input type="button" value="Ajouter Ville"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Code Postal:</label></td>
+                            <td><input type="text" id="cdp"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Remarque</label></td>
+                            <td><textarea name="" id="Remarque" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label>Max 500 caractéres,il vous reste:</label></td>
+                            <td><input type="text"disabled="disabled" id="dis"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="ck1"><label>J'accepte les termes et conditions générales</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Envoyer" class="button" onclick="verif()" ></td>
+                            <td><input type="reset" value="Rétablir" class="button"></td>
+                        </tr>
+                        <tr>
+                            <td><p id="erruer"> </p></td>
+                        </tr>
+                
+         
+                
+            </div>
+            
+        </div>
+        </table>
+
+    </form>
+    
+</body>
+</html>

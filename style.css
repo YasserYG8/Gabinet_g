@@ -1,0 +1,35 @@
+h1{
+    font-size: 25pt;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+label{
+    color: aqua;
+}
+.logo{
+    border: 25%;
+    background: linear-gradient(45deg,#0074f8,#c91df9);
+    border-radius: 2%;
+    padding: 30px;
+
+}
+.principe{
+    padding: 25px;
+    border-style:hidden;
+    box-shadow: 10px 10px 10px 10px grey;
+
+    
+}
+body{
+    margin:1cm;
+    background: linear-gradient(45deg,#06c1eb,#fa93ff);
+    
+}
+.button{
+    background-color: aqua;
+    padding:15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    
+}
